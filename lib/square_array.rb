@@ -10,7 +10,7 @@
 
 
 #test out higher-level iterators? (each, collect, map, inject)
-def square_array_with_each(array)
+def square_array(array)
   squared_array = []
   array.each {|x| squared_array << (x**2)}
   squared_array
